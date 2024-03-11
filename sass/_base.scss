@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter&family=Karla:ital,wght@0,200..800;1,200..800&family=Lexend+Deca:wght@100..900&family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');
+$color-yellow:hsl(47, 88%, 63%);
+$color-white:hsl(0, 0%, 100%);
+$color-grey:hsl(0, 0%, 50%);
+$color-black:hsl(0, 0%, 7%);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Figtree,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background: $color-yellow;
+    color: $color-black;
+    line-height: 150%;
+}
